@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/archlabs/lab03/lab03.srcs/sources_1/new/ALUCtr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUCtr
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/archlabs/lab03/lab03.srcs/sim_1/new/ALUCtr_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUCtr_tb
+WARNING: [VRFC 10-2096] empty statement in sequential block [D:/archlabs/lab03/lab03.srcs/sim_1/new/ALUCtr_tb.v:34]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/archlabs/lab03/lab03.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

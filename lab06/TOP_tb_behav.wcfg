@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TOP_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TOP_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="7641099856fs"></ZoomEndTime>
+      <Cursor1Time time="6989870000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="211"></NameColumnWidth>
+      <ValueColumnWidth column_width="126"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/TOP_tb/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/PERIOD" type="array">
+      <obj_property name="ElementShortName">PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/u0/Inst_Memory/inst" type="array">
+      <obj_property name="ElementShortName">inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/u0/Inst_Memory/address" type="array">
+      <obj_property name="ElementShortName">address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/u0/Register/regFile" type="array">
+      <obj_property name="ElementShortName">regFile[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regFile[31:0][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/u0/Register/readReg1" type="array">
+      <obj_property name="ElementShortName">readReg1[25:21]</obj_property>
+      <obj_property name="ObjectShortName">readReg1[25:21]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/u0/Register/readReg2" type="array">
+      <obj_property name="ElementShortName">readReg2[20:16]</obj_property>
+      <obj_property name="ObjectShortName">readReg2[20:16]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/u0/Register/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/u0/Register/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/u0/Register/writeReg" type="array">
+      <obj_property name="ElementShortName">writeReg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">writeReg[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/u0/Register/writeData" type="array">
+      <obj_property name="ElementShortName">writeData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writeData[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/u0/id_ex/data_extend_1_out" type="array">
+      <obj_property name="ElementShortName">data_extend_1_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_extend_1_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/u0/alu_1/aluRes" type="array">
+      <obj_property name="ElementShortName">aluRes[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluRes[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/u0/Data_Memory/address" type="array">
+      <obj_property name="ElementShortName">address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/u0/Data_Memory/readData" type="array">
+      <obj_property name="ElementShortName">readData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/u0/Data_Memory/memFile" type="array">
+      <obj_property name="ElementShortName">memFile[0:5][31:0]</obj_property>
+      <obj_property name="ObjectShortName">memFile[0:5][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/u0/ex_mem/mux_1_out" type="array">
+      <obj_property name="ElementShortName">mux_1_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_1_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/u0/ex_mem/mux_1_in" type="array">
+      <obj_property name="ElementShortName">mux_1_in[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_1_in[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/u0/f_u/EX_MEM_EMPTY" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_EMPTY</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_EMPTY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/u0/f_u/ID_EX_STALL" type="logic">
+      <obj_property name="ElementShortName">ID_EX_STALL</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_STALL</obj_property>
+   </wvobject>
+</wave_config>
